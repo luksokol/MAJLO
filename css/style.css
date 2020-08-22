@@ -153,6 +153,41 @@ section .album .btn a:hover, .videos .btn a:hover {
   padding: 0 100px;
 }
 
+/* CONTACT */
+#contact {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#contact a {
+  text-decoration: none;
+  color: rgb(94, 176, 231);
+}
+
+#contact .booking, .managment{
+padding: 20px;
+}
+
+/* FOOTER */
+#footer {
+  padding: 40px;
+  text-align: center;
+}
+
+#footer i {
+  font-size: 1.3rem;
+}
+
+#footer a {
+  margin: 0 10px;
+  padding: 5px;
+  color: #555;
+  transition: all .3s ease;
+}
+
+#footer a:hover {
+  opacity: 0.4;
+}
 
 /* MEDIA */
 @media(max-width: 768px) {
