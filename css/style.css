@@ -22,6 +22,15 @@ header {
   background: rgba(0, 0, 0, 0.4) url('../images/majlo-scaled.jpg') no-repeat center center/cover;
   background-blend-mode: darken;
   height: 60vh;
+  animation-name: anim1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes anim1 {
+0% {opacity:0;}
+100% {opacity:1;}
 }
 
 .navbar {
