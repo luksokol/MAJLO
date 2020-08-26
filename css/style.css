@@ -74,14 +74,14 @@ header {
   right: 20px;
   font-size: 35px;
   display: none;
-}
-
-.toggle a {
   transition: all .2s ease;
   color: #ddd;
+  cursor: pointer;
 }
 
-.toggle a:hover {
+
+
+.toggle:hover {
   color: #eee;
 }
 
@@ -160,6 +160,7 @@ section .album .btn a:hover, .videos .btn a:hover {
   width: 80%;
   height: 400px;
   padding: 0 100px;
+  border: none;
 }
 
 /* CONTACT */
